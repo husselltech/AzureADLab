@@ -1,9 +1,10 @@
-# AzureADLab
-Azure Active Directory Lab/Tutorial
-On-site Active Directory using Microsoft Azure Cloud Services
+# **Azure Active Directory Lab/Tutorial**
 
-Summary:
-This is a tutorial/lab utilizing the following technologies: Microsoft Azure Cloud Services, Virtual Machines, Virtual Networks, Microsoft Server 2022, Remote Desktop Protocol, and Active Directory. Using Microsoft Azure, we will create two Domain Controllers running Active Directory that will act as DNS servers for a local network. Once the Domain Controllers are active, we will practice creating users. You can use this tutorial lab for further learning including creating users with PowerShell, testing Group Policies, VPN scenarios, and test Azure AD Connect.
+## **On-site Active Directory using Microsoft Azure Cloud Services**
+
+**Summary:**
+
+**This is a tutorial/lab utilizing the following technologies: Microsoft Azure Cloud Services, Virtual Machines, Virtual Networks, Microsoft Server 2022, Remote Desktop Protocol, and Active Directory. Using Microsoft Azure, we will create two Domain Controllers running Active Directory that will act as DNS servers for a local network. Once the Domain Controllers are active, we will practice creating users. You can use this tutorial lab for further learning including creating users with PowerShell, testing Group Policies, VPN scenarios, and test Azure AD Connect.**
 
 Let us begin!
 
@@ -334,7 +335,7 @@ In DC01 right click on the Subnets folder and add a new subnet. Paste the subnet
  ![image](https://user-images.githubusercontent.com/114452968/230463289-1279f5e7-0ed8-4d95-9a6f-625cfa771b61.png)
 
 In our final steps we will go to Tools > Active Directory Users and Computers. Right click on Active Directory Users and Computers and you will have the option to change Domain controllers. Pick one and we can practice adding users. Find the Users folder and right click to add a new user, and then fill out the form prompted on the screen. Give the user a password and finish the user setup. Check in both DC01 and DC02 for the new user you created. In this lab I used HussellTest1 as my new user.
- ![image](https://user-images.githubusercontent.com/114452968/230463317-23129503-4f8b-4d3d-b3e7-44b2fe10106e.png)
+![image](https://user-images.githubusercontent.com/114452968/230463317-23129503-4f8b-4d3d-b3e7-44b2fe10106e.png)
 ![image](https://user-images.githubusercontent.com/114452968/230463342-a6e23deb-3495-4429-ba21-e39580b1fcb7.png)
 ![image](https://user-images.githubusercontent.com/114452968/230463363-9140ebb9-ee00-4583-9412-7f252c837961.png)
 ![image](https://user-images.githubusercontent.com/114452968/230463387-db04ab20-c84d-4780-9c44-78b34ecdcf7c.png)
@@ -343,7 +344,7 @@ In our final steps we will go to Tools > Active Directory Users and Computers. R
  
  
 
-Conclusions:
-We have deployed dual domain controllers running Active Directory and DNS in Microsoft Azure. You can use this tutorial lab for further learning including creating users with PowerShell, testing Group Policies, VPN scenarios, and test Azure AD Connect.
+# **Conclusions:**
+## **We have deployed dual domain controllers running Active Directory and DNS in Microsoft Azure. You can use this tutorial lab for further learning including creating users with PowerShell, testing Group Policies, VPN scenarios, and test Azure AD Connect.**
 
 
